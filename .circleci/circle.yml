@@ -30,7 +30,7 @@ dependencies:
   pre:
     - echo "export rvm_ignore_gemsets_flag=1" >> ~/.rvmrc - gem install bundler
     - npm install coffeescript # install from a different package manager
-    #- gem uninstall bundler # use a custom version of bundler
+    - gem uninstall bundler # use a custom version of bundler
     - gem install bundler --pre
 
   override:
