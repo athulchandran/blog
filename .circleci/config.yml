@@ -55,3 +55,7 @@ jobs:
       - store_artifacts:
           path: /tmp/test-results
           destination: test-results
+          
+    bundle_dependencies:
+      steps:
+        - run: bundle install
